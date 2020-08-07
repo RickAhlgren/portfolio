@@ -4,9 +4,11 @@ import "./welcome.css";
 function Welcome() {
     return (
         <div className="welcome">
-            <div className="welkum">
+            <div className="wel-kum">
                 <p>WEL</p>
-                <p>KUM<span className="accent-punct">.</span></p>
+                <p>
+                    KUM<span className="accent-punct">.</span>
+                </p>
             </div>
             <div className="text-box">
                 <p>
@@ -15,6 +17,9 @@ function Welcome() {
                     consciousness into a machine and spend the rest of eternity
                     consuming books and binging YouTube.
                 </p>
+            </div>
+            <div>
+                <i className="fas fa-chevron-circle-down fa-3x scroll-arrow"></i>
             </div>
         </div>
     );

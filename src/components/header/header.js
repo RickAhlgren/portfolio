@@ -10,7 +10,13 @@ function Header() {
                 <p className="title">full stack web dev</p>
             </div>
             <div className="mail">
-                <i className="fas fa-inbox fa-2x"></i>
+                <a
+                    href="mailto:erik.allan.ahlgren@gmail.com?subject=I'm%20in%20your%20DMs!&body=Hey%20Erik!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className="fas fa-inbox fa-2x"></i>
+                </a>
             </div>
         </div>
     );

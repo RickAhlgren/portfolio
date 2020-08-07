@@ -1,0 +1,20 @@
+.explore {
+    height: 100vh;
+}
+
+.exp-lore {
+    position: relative;
+    left: 5vw;
+    text-align: left;
+    width: 50vw;
+    font-weight: 300;
+    font-size: calc(30px + 10vmin);
+    color: #2c3e50;
+    margin: 0px;
+    z-index: 5;
+    transform: translateY(25px);
+}
+
+.accent-punct {
+    color: #e74c3c;
+}
