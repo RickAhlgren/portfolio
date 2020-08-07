@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    margin: 0px;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: -3;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+  background-color: #ECF0F1;
+}
+
+.right {
+  right: 0;
+  height: 100vh;
+  background-image: url("./images/mountain-alps.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
